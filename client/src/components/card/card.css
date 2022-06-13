@@ -1,0 +1,24 @@
+.card {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 7px 2px 25px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 2px 25px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 2px 25px -1px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+  font-weight: 600;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 20px;
+  padding: 0 20px;
+}
